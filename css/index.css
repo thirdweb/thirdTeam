@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>蘑菇街</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/iconfont.css">
+	</head>
+	<body>
+	<header>
+		<div class="mg-header">
+			<div class="inde">
+				<a href="fenlei.html"><i class="iconfont icon-fenlei"></i></a>
+				<p>分类</p>
+			</div>
+			<a class="endfenlei" href="#"><i class="iconfont icon-search-1-copy"></i>&nbsp;&nbsp;春装</a>
+		</div>
+	</header>
+		<section>
+			<div class="mg-index-zhibo">
+				<div class="mg-index-xingxiu">
+					<div class="mg-left mg-one"></div>
+					<div class="mg-left mg-two"></div>
+					<div class="mg-left mg-sree"></div>
+					<div class="mg-left mg-for"></div>
+					<div class="mg-left mg-five"></div>
+					<div class="mg-left mg-six"></div>
+					<a class="mg-zhibo" href="#">进入直播频道&gt;</a>
+					<a class="mg-xiaoju" href="#">小桔GUGU</a>
+					<a class="mg-qiaokeli" href="#">巧克力力力呢</a>
+					<a class="mg-dayi" href="#">Dr大怡</a>
+				</div>
+			</div>
+			<div class="mg-index-shopping">
+			<div class="mg-idnex-shopp">
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+			</div>
+			<div class="mg-idnex-shopp">
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+			</div>
+			<div class="mg-idnex-shopp">
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+		 		</div>
+				<div class="mg-index-shop">
+					<div class="mg-index-shangyi"></div>
+					<a href="#">上衣</a>
+				</div>
+			</div>
+			</div>
+			<div class="mg-daohang">
+				<div class="mg-daohang-faxian">
+					<ul class="mg-daohang-ul">
+						<li onclick="change(1)"><a href="javascript:;">发现</a></li>
+						<li onclick="change(2)"><a href="javascript:;">关注</a></li>
+						<li onclick="change(3)"><a href="javascript:;">流行</a></li>
+					</ul>
+				</div>
+			</div>
+			<div  class="mg-dapeishi" id="div1" >
+				<div class="mg-gaunzhu">
+					<div class="mg-touxiang"><img src="img/2594472DCA282A64342E992D9299D608.jpg" alt=""></div>
+					<div class="mg-ziliao"><p style="font-size: .15rem; font-weight: 700;">蘑师&nbsp;·&nbsp;<span style="color: #c9c9c9; font-size: .1rem;">四小时前更新</span></p><p style="color: #a5a3de; font-size: .1rem;">认证编辑：<span style="color: #7b7b7b;">海量搭配视频，教你不踩雷</span></p></div>
+					<div class="guanzhu">
+					<div class="mg-guanzhu"><a href="">关注</a></div>
+					</div>
+				</div>
+				<div class="mg-shipin">
+					<div class="mg-yinhua"><img src="img/282A64342E992D9299D608.jpg" alt=""></div>
+					<div class="mg-yinhua"><img src="img/282A64342E992D9299D608.jpg" alt=""></div>
+					<div class="mg-yinhua"><img src="img/282A64342E992D9299D608.jpg" alt=""></div>
+				
+				</div>
+			</div>
+			<div  class="mg-dapeishi" id="div2" style="display: none;">
+				<div class="mg-gaunzhu">
+					<div class="mg-touxiang"><img src="img/2594472DCA282A64342E992D9299D608.jpg" alt=""></div>
+					<div class="mg-ziliao"><p style="font-size: .15rem; font-weight: 700;">搭配师&nbsp;·&nbsp;<span style="color: #c9c9c9; font-size: .1rem;">四小时前更新</span></p><p style="color: #a5a3de; font-size: .1rem;">认证编辑：<span style="color: #7b7b7b;">海量搭配视频，教你不踩雷</span></p></div>
+					<div class="guanzhu">
+					<div class="mg-guanzhu"><a href="">关注</a></div>
+					</div>
+				</div>
+				<div class="mg-shipin">
+					<div class="mg-yinhua"><img src="img/qwer.jpg" alt=""></div>
+					<div class="mg-yinhua"><img src="img/qwer.jpg" alt=""></div>
+					<div class="mg-yinhua"><img src="img/qwer.jpg" alt=""></div>
+				
+				</div>
+			</div>
+			<div  class="mg-dapeishi" id="div3" style="display: none;">
+				<div class="mg-gaunzhu">
+					<div class="mg-touxiang"><img src="img/2594472DCA282A64342E992D9299D608.jpg" alt=""></div>
+					<div class="mg-ziliao"><p style="font-size: .15rem; font-weight: 700;">蘑菇配师&nbsp;·&nbsp;<span style="color: #c9c9c9; font-size: .1rem;">四小时前更新</span></p><p style="color: #a5a3de; font-size: .1rem;">认证编辑：<span style="color: #7b7b7b;">海量搭配视频，教你不踩雷</span></p></div>
+					<div class="guanzhu">
+					<div class="mg-guanzhu"><a href="">关注</a></div>
+					</div>
+				</div>
+				<div class="mg-shipin">
+					<div class="mg-yinhua"><img src="img/282A64342E992D9299D608.jpg" alt=""></div>
+					<div class="mg-yinhua"><img src="img/282A64342E992D9299D608.jpg" alt=""></div>
+					<div class="mg-yinhua"><img src="img/282A64342E992D9299D608.jpg" alt=""></div>
+				
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="mg-footer-end">
+				<ul class="mg-end-ul">
+					<li><a href="index.html" style="color: #ec687d;">首页</a></li>
+					<li><a href="zhibo.html">直播</a></li>
+					<li><img class="mg-end-jia" src="img/A7E243C274A7F78AC65790D1A262099C.jpg" alt=""></li>
+					<li><a href="shoip.html">商城</a></li>
+					<li><a href="message.html">我</a></li>
+				</ul>
+			</div>
+			
+		</footer>
+	</body>
+</html>
+
+<script type="text/javascript" src="jquery-1.8.3.js"></script>
+<script type="text/javascript" src="tab.js"></script>
+
