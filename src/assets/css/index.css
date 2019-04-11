@@ -1,0 +1,108 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+html, body{
+  	font-family: 'Roboto', sans-serif;
+  	overflow-x: hidden;
+	font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f3f3f3;
+}
+ul li{
+	list-style:none;
+	margin-top: 0;
+	display: block;
+}
+button{
+	outline:none;
+}
+input:focus, textarea:focus {
+ outline: none;
+}
+ol{
+	list-style:none;
+	display: block;
+}
+header{
+	width: 100%;
+	background: skyblue;
+	 height: 79px;
+	 border-bottom: 1px solid #88cc7a;
+}
+section{
+	display: flex;
+	width: 100%;
+	height: 680px;
+	background:#e0e0e0;
+}
+.YZF-left{
+	width: 200px;
+	height: 680px;
+	background-color: powderblue;
+}
+.YZF-right{
+	width: 100%;
+	height: 662px;
+	margin: 8px;
+	background: white;
+}
+.hangye-top{
+	display: flex;
+	margin-left: 24px;
+	margin-top: 34px;
+	padding: 7px 0 7px 10px;
+	border-bottom: 1px solid #ddd;
+}
+.hangye-top img{
+	width: 23px;
+	height: 20px;
+	margin-top: 7px;
+	margin-right:15px;
+}
+.hangye-top h2{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+}
+.hangye-form{
+	padding: 20px;
+	color: #333;
+}
+.hangye-grop{
+	display: flex;
+
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.hangye-lable{
+	width: 140px;
+	float: left;
+	line-height: 32px;
+}
+.hangye-lable span{
+	color:#b94a48;
+	margin-right: 3px;
+}
+.hangye-input input{
+	font-size: 14px;
+    height: 32px;
+    width: 240px;
+    padding: 0 10px;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+	margin-right: 20px;
+}
+.sub input{
+	width: 100px;
+	height: 32px;
+	line-height: 18px;border: 1px solid #239616;background-color: #2bbb14;
+    background-image: none;color: #fff;border-radius:5px;margin-left: 140px;
+}
+.hangye-input span{color: #b94a48;}
+.txt p{margin-top: 10px;margin-bottom: 10px;}
+.txt span{color: #2bbb14;}
+.flie input{
+	border: 0px;
+}
